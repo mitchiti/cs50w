@@ -1,0 +1,14 @@
+h1{ 
+    color: red;
+}
+
+.box {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    margin: 20px;
+}
+.box:hover {
+    background-color: orange;
+}

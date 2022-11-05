@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script>
+                let counter = 0;
+            function hello() {
+            alert('Hello ' + counter++)
+            // document.querySelector('h1').innerHTML = `Bye: ${counter++}`
+            }
+            document.addEventListener('DOMContentLoaded', function() {
+                document.querySelector('button').onClick = hello;
+            })
+            </script>
+
+    </head>
+    <body>
+        <h1>hello</h1>
+
+        <!-- <form>
+            <input> 
+        </form> -->
+        <button>Click Here</button>
+    </body>
+</html>
