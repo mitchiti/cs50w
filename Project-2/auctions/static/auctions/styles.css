@@ -1,3 +1,38 @@
 body {
-    padding: 10px;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: 2px solid #ccd2ff;
+  padding: 20px;
 }
+
+
+/* a {
+  color: #5165ff;
+} */
+
+.tableRow {
+  display: grid;
+  text-decoration: none;
+  color: inherit;
+  grid-template-columns: 160px 320px;
+  place-items: center;
+  border: 2px solid #ccd2ff;
+  border-bottom: none;
+  cursor: pointer;
+}
+.tableRow:hover, .tableRow:focus {
+  background: #f2f3ff;
+  outline: none;
+}
+.tableRow:last-child {
+  border-bottom: 2px solid #ccd2ff;
+}
+/* 
+.tableCell {
+  padding: 18px;
+  border-right: 2px solid #ccd2ff;
+}
+.tableCell:last-child {
+  border-right: none;
+}  */
