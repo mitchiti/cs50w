@@ -1,0 +1,12 @@
+textarea {
+    min-height: 400px;
+}
+
+body {
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 2px solid #ccd2ff;
+    padding: 20px;
+  }
+ 
