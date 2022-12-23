@@ -1,0 +1,36 @@
+{% extends "nethound/layout.html" %}
+{% load static %}
+
+{% block body %}
+<div id="post-view">
+    <h3 id="post-title">New Post</h3>
+    <form id="post-form">
+        <textarea class="form-control" id="post-text"></textarea>
+        <input type="submit" id="post-button" value="Post" class="btn btn-primary"/>
+    </form>
+</div>
+
+<div id="edit-view">
+    <h3 id="post-title">Edit Post</h3>
+    <form id="edit-form">
+        <textarea class="form-control" id="edit-text"></textarea>
+        <input type="submit" id="edit-button" value="Save" class="btn btn-primary"/>
+        <input type="submit" id="cancel-button" value="Cancel" class="btn btn-default"/>
+    </form>
+</div>
+
+
+<hr>
+
+<div id="profile-view">
+</div>
+
+<div id="posts-view">
+</div>
+
+
+{% endblock %}
+
+{% block script %}
+    <script src="{% static 'nethound/nethound.js' %}"></script>
+{% endblock %}
